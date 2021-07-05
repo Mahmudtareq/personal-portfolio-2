@@ -3,9 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   
 }
-
 /*main div*/
 .hero{
     height: 100vh;
@@ -30,7 +28,7 @@ nav{
     letter-spacing: 1px;
     cursor: pointer;
 }
-
+ /*span color set for text*/
 span{
     color: rgb(236, 8, 84);
 }
@@ -49,6 +47,7 @@ nav ul li a:hover{
     transition: .4s;
 }
 /*button design*/
+/* subscrive button*/
 .btn{
     text-decoration: none;
     background-color: darkblue;
@@ -58,7 +57,6 @@ nav ul li a:hover{
     font-weight:bold ;
     border: 2px solid transparent;
     transition: transform .4s;
-
 }
 .btn:hover{
     transform: scale(1.1);
@@ -67,6 +65,7 @@ nav ul li a:hover{
 }
 /*----------------------------*/
 /* body contant*/
+/*form section start here*/
 .content{
     position: absolute;
     top: 50%;
@@ -121,33 +120,9 @@ h4{
     background-color: rgb(2, 43, 43);
     color:hotpink;
 }
-/*social site design
-.share{
-    position: absolute;
-    top: 90%;
-    left: 8%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-
-}
-.share p{
-    font-size: 17px;
-    margin-right: 60px;
-    color:palevioletred ;
-}
-.share .social a{
-    display: inline-block;
-    margin-right: 15px;
-    font-size: 20px;
-    transition: transform 0.4s;
-}
-.share .social a:hover{
-    transform: scale(1.5);
-}*/
+/*form and text section end*/
 /*-----------------------*/
-/*anbout section*/
+/*about section start here*/
 .about{
     width: 100%;
     padding: 100px 0px;
@@ -155,14 +130,13 @@ h4{
 }
 .about img{
     height: auto;
-    width: 430px;
+    width: 40%;
 }
 .about-text{
-    width: 550px;
-
+    width: 50%;
 }
 .main{
-    width: 1130px;
+    width: 90%;
     max-width: 95%;
     margin:0 auto;
     display: flex;
@@ -190,6 +164,9 @@ h4{
     line-height: 28px;
     letter-spacing: 1px;
 }
+/*about and text section end*/
+/*--------------------------------------------------*/
+/*all button design start here*/
 button{
     background-color:rgb(236, 8, 84);
     outline: none;
@@ -203,3 +180,91 @@ button:hover{
     background-color: aquamarine;
     color: #000;
 }
+/*button  section  end here*/
+/*------------------------------*/
+/*service section start*/
+.service{
+    background-color: #000;
+    padding:40px;
+}
+.row{
+    display: flex;
+    margin-top: 5%;
+}
+.col{
+    width: 33%;
+    margin-left: 2%;
+    margin-right:2%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.read-btn{
+   margin-top: 10px;
+   margin-left: 20%;
+}
+.col h5{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: orange;
+}
+.col p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+}
+/*service section end here */
+/*---------------------------*/
+/*hire me section start here*/
+.hire{
+    background-color: rgb(14, 12, 12);
+    padding: 100px;
+}
+.hire-me{
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+   
+}
+.hire-me a{
+    text-decoration: none;
+    background-color: rgb(231, 9, 46);
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: #ddd;
+    transition: 1s;
+}
+.hire-me a:hover{
+    background-color: darkorchid;
+}
+h5{   
+    font-size: 20px;
+    margin-top: 29px;
+    margin-bottom: 30px;
+    color: palevioletred;
+}
+/*hire me section end here*/
+/*---------------------------------------*/
+/*footer section start*/
+.share{
+    background-color: rgba(5, 5, 4, 0.918);
+    padding: 100px;
+    text-align: center;
+}
+.social i{
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-left: 5px;
+    background-color: aqua;
+    border-radius: 30%;
+    transition: 2s;
+
+}
+.social i:hover{
+    background-color: red;
+    color: #ddd;
+}
+/*footer section end*/
