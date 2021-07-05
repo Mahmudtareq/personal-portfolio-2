@@ -5,16 +5,16 @@
     padding: 0;
    
 }
-body{
-    background-color: rgba(59, 56, 56, 0.918);
-}
+
+/*main div*/
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(./image/remove3.png);
+    background-image: url(./image/background.jpg);
     background-size:cover;
     background-position: center;
 }
+/*nav menu design*/
 nav{
     display: flex;
     align-items: center;
@@ -23,14 +23,16 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
+/*logo design*/
 .logo{
-    color: black;
+    color: white;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
+
 span{
-    color: palevioletred;
+    color: rgb(236, 8, 84);
 }
 nav ul li{
     list-style: none;
@@ -40,12 +42,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color:#000;
+    color:white;
 }
 nav ul li a:hover{
-    color: white;
+    color: khaki;
     transition: .4s;
 }
+/*button design*/
 .btn{
     text-decoration: none;
     background-color: darkblue;
@@ -60,9 +63,10 @@ nav ul li a:hover{
 .btn:hover{
     transform: scale(1.1);
     background-color: aliceblue;
-    color: black;
+    color: rgb(248, 1, 1);
 }
 /*----------------------------*/
+/* body contant*/
 .content{
     position: absolute;
     top: 50%;
@@ -71,9 +75,10 @@ nav ul li a:hover{
 }
 h1{
     font-size: 50px;
+    color: aliceblue;
 }
 h3{
-    color: rgba(216, 112, 147, 0.562);
+    color: white;
     font-size: 30px;
     margin-bottom: 50px;
     letter-spacing: 2px;
@@ -83,6 +88,7 @@ h4{
     font-size: 25px;
     letter-spacing: 2px;
 }
+/*form design*/
 .news form{
     width: 380px;
     max-width: 100%;
@@ -115,6 +121,7 @@ h4{
     background-color: rgb(2, 43, 43);
     color:hotpink;
 }
+/*social site design
 .share{
     position: absolute;
     top: 90%;
@@ -138,4 +145,61 @@ h4{
 }
 .share .social a:hover{
     transform: scale(1.5);
+}*/
+/*-----------------------*/
+/*anbout section*/
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h2{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #ddd;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: #ddd;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-bottom: 45px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+button{
+    background-color:rgb(236, 8, 84);
+    outline: none;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #ddd;
+    transition: 1s;
+}
+button:hover{
+    background-color: aquamarine;
+    color: #000;
 }
