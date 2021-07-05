@@ -3,11 +3,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
+}
+body{
+    background-color: rgba(59, 56, 56, 0.918);
 }
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(./image/remove2.png);
+    background-image: url(./image/remove3.png);
     background-size:cover;
     background-position: center;
 }
@@ -36,10 +40,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: red;
+    color:#000;
 }
 nav ul li a:hover{
-    color: black;
+    color: white;
     transition: .4s;
 }
 .btn{
@@ -110,4 +114,28 @@ h4{
 .news form input:last-child:hover{
     background-color: rgb(2, 43, 43);
     color:hotpink;
+}
+.share{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.share p{
+    font-size: 17px;
+    margin-right: 60px;
+    color:palevioletred ;
+}
+.share .social a{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: transform 0.4s;
+}
+.share .social a:hover{
+    transform: scale(1.5);
 }
