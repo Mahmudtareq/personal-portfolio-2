@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image/remove2.png);
+    background-size:cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: palevioletred;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+}
+nav ul li a:hover{
+    color: black;
+    transition: .4s;
+}
+.btn{
+    text-decoration: none;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight:bold ;
+    border: 2px solid transparent;
+    transition: transform .4s;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: aliceblue;
+    color: black;
+}
+/*----------------------------*/
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    color: rgba(216, 112, 147, 0.562);
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+h4{
+    color: aqua;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.news form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.news form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 12px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid firebrick;
+}
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    background-color: rgba(137, 43, 226, 0.082);
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 10px 5px 20px gray;
+    top: 6px;
+    right: 6px;
+}
+.news form input:last-child:hover{
+    background-color: rgb(2, 43, 43);
+    color:hotpink;
+}
